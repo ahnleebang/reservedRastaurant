@@ -1,0 +1,40 @@
+@import "./styleLayout.css";
+
+.main {
+  width: 100%;
+  min-height: calc(100vh - 150px);
+  background-image: url("./emerson-vieira-_aR4l6fj6wQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main__message1 {
+  font-size: 3em;
+  font-weight: 300;
+  margin-bottom: 50px;
+  color: #ecf0f1;
+}
+.main__message2 {
+  font-size: 5em;
+  font-weight: 500;
+  margin-bottom: 150px;
+  color: #ecf0f1;
+}
+.main__button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  font-size: 3em;
+  font-weight: 500;
+  color: #000000;
+  transition-duration: 0.3s;
+}
+.main__button:hover {
+  transform: scale(1.1);
+}
